@@ -1,0 +1,44 @@
+body{
+    background: #e7e7e7;
+    
+    
+    
+}
+header{
+    background: #0F1111;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+
+.top-name{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    animation-duration: 5s;
+    animation-name: name;
+    
+}
+.profile-pic{
+    width: 250px;
+    height: 250px;
+       
+}
+.top-desc{
+    font-family: 'Libre Baskerville', serif;
+   
+}
+.service, .contact{
+    background:#cfcfcf;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+@keyframes name{
+    from{color: black;}
+    to{color:white;}
+}
+
