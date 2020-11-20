@@ -16,7 +16,7 @@ header{
 .top-name{
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-name: name;
     
 }
@@ -38,7 +38,7 @@ header{
 }
 
 @keyframes name{
-    from{color: black;}
+    from{color: #0F1111;}
     to{color:white;}
 }
 
